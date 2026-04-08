@@ -1,0 +1,44 @@
+{
+    "id": "dh2e-comm",
+    "title": "Dark Heresy 2nd Edition - Community Version",
+    "description": "An unofficial implimentation of the core system for Dark Heresy 2nd Edition.",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "FooWho",
+            "email": "foowho@nowhere.com",
+            "discord": "FooWho"
+        }
+    ],
+    "compatibility": {
+        "minimum": 13,
+        "verified": "13.351",
+        "maximum": 13
+    },
+    "esmodules": [
+        "dh2e-comm.js"
+    ],
+    "styles": [
+        "dh2e-comm.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        },
+        {
+            "lang": "es",
+            "name": "Español",
+            "path": "lang/es.json"
+        }
+    ],
+    "socket":  false,
+    "grid": {
+        "distance": 1,
+        "units": "Meter"
+    },
+    "url": "https://github.com/FooWho/dh2e-comm",
+    "manifest": "https://github.com/FooWho/dh2e-comm/releases/latest/download/system.json",
+    "download": "https://github.com/FooWho/dh2e-comm/releases/download/v0.0.1/system.zip"
+}
